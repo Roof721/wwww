@@ -55,7 +55,7 @@ public class Printer extends Module {
 			.description("The block place range.")
 			.defaultValue(2)
 			.min(1).sliderMin(1)
-			.max(60).sliderMax(6)
+			.max(1000).sliderMax(1000)
 			.build()
 	);
 
